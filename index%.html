@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9" >
+    <title>Document</title>
+    <link rel="stylesheet" href="estiloPorcentaje.css">
+</head>
+<body>
+    <form action="datos2.php" method="get">
+        <h1>FORMULARIO PROFESORES</h1>
+     <!--asignatura
+        profesor
+        horas
+        informacion-->
+        <input type="radio" name="asignatura" value="Programacion"> Programacion
+        <br>
+        <input type="radio" name="asignatura" value="BBDD"> Base de datos
+        <br>
+        <input type="radio" name="asignatura" value="LMSGI"> LMSGI
+        <br>
+        <input type="radio" name="asignatura" value="SSII"> SSII
+        <br>
+        <input type="radio" name="asignatura" value="EED"> EED
+        <br>
+        <input type="radio" name="asignatura" value="Ingles"> Ingles
+        <br>
+        <input type="radio" name="asignatura" value="IPE1"> IPE1
+        <br><br>
+        <input type="checkbox" name="profesor[]" value="Isa">Isa
+        <br>
+        <input type="checkbox" name="profesor[]" value="Paco">Paco
+        <br>
+        <input type="checkbox" name="profesor[]" value="Alberto">Alberto
+        <br>
+        <input type="checkbox" name="profesor[]" value="Chema">Chema
+        <br>
+        <input type="checkbox" name="profesor[]" value="Santiago">Santiago
+        <br>
+        <input type="checkbox" name="profesor[]" value="Tomás">Tomás
+        <br><br>
+        <input type="text" name="horas" id="horas" placeholder="Horas">
+        <br><br>
+        <textarea name="informacion" id="informacion" placeholder="Información adicional"></textarea>
+        <br><br>
+        <input type="submit">
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
